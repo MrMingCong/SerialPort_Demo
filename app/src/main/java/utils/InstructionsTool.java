@@ -1,0 +1,15 @@
+package utils;
+
+/**指令
+ * Created by mingcong on 2018/5/15.
+ */
+
+public class InstructionsTool {
+    public static final   byte[] GREEN = {0x00, (byte) 0xA7, 0x03, 0x01, 0x02, (byte) 0xA7};
+    public static final   byte[] RED= {0x00, (byte) 0xA7, 0x03, 0x02, 0x02, (byte) 0xA4};
+    public static final   byte[] BLUE =  {0x00, (byte) 0xA7, 0x03, 0x03, 0x02, (byte) 0xA5};
+    public static final   byte[] WHITE = {0x00, (byte) 0xA7, 0x03, 0x04, 0x02, (byte) 0xA2};
+
+
+
+}

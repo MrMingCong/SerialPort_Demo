@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="状态"
+        android:textColor="#FFFC1106"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button_selected"
+        android:layout_width="120sp"
+        android:layout_height="70sp"
+        android:layout_gravity="center"
+        android:text="选择串口" />
+
+    <Button
+        android:id="@+id/button_open"
+        android:layout_width="120sp"
+        android:layout_height="70sp"
+        android:layout_gravity="center"
+        android:text="打开串口" />
+
+    <Button
+        android:id="@+id/button_status"
+        android:layout_width="120sp"
+        android:layout_height="70sp"
+        android:layout_gravity="center"
+        android:text="状态" />
+
+    <Button
+        android:id="@+id/button_close"
+        android:layout_width="120sp"
+        android:layout_height="70sp"
+        android:layout_gravity="center"
+        android:text="关闭串口" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_send"
+                android:layout_width="80sp"
+                android:layout_height="70sp"
+                android:layout_gravity="center"
+                android:text="发绿色 " />
+
+            <Button
+                android:id="@+id/button_send_red"
+                android:layout_width="80sp"
+                android:layout_height="70sp"
+                android:layout_gravity="center"
+                android:text="发红色 " />
+
+            <Button
+                android:id="@+id/button_send_blue"
+                android:layout_width="80sp"
+                android:layout_height="70sp"
+                android:layout_gravity="center"
+                android:text="发蓝色 " />
+
+            <Button
+                android:id="@+id/button_send_white"
+                android:layout_width="80sp"
+                android:layout_height="70sp"
+                android:layout_gravity="center"
+                android:text="发白色 " />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
